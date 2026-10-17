@@ -1,0 +1,212 @@
+{
+  "title": "Stripr on PayBox: agents that know when to say no",
+  "model": "eleven_multilingual_v2",
+  "voices": {
+    "narrator": {
+      "name": "Eric",
+      "id": "cjVigY5qzO86Huf0OWal",
+      "settings": {
+        "stability": 0.5,
+        "similarity_boost": 0.8,
+        "style": 0.25,
+        "use_speaker_boost": true
+      }
+    },
+    "agent": {
+      "name": "Sarah",
+      "id": "EXAVITQu4vr4xnSDxMaL",
+      "settings": {
+        "stability": 0.7,
+        "similarity_boost": 0.8,
+        "style": 0.1,
+        "use_speaker_boost": true
+      }
+    }
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "seconds": 6,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "AI agents can move money now. Swap, send, sign. One wrong call, and it is gone."
+        }
+      ]
+    },
+    {
+      "id": "paybox",
+      "seconds": 7,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "PayBox fixes half of that. Your agent gets a wallet, never the keys. And you approve every move."
+        }
+      ]
+    },
+    {
+      "id": "open",
+      "seconds": 9,
+      "lines": [
+        {
+          "voice": "agent",
+          "text": "Refused. Rule S G zero two, size cap. Thirty four thousand dollars is over the five thousand dollar cap. No transaction was built."
+        },
+        {
+          "voice": "narrator",
+          "text": "The other half? An agent that knows when to say no."
+        }
+      ]
+    },
+    {
+      "id": "turn",
+      "seconds": 3,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "Meet Stripr."
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "seconds": 10,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "Stripr is live on Solana mainnet, with fifteen tokenized stocks. Apple, Nvidia, Tesla, and more. Their dividends arrive by growing the token itself. Coca-Cola's has grown by two point two six percent."
+        }
+      ]
+    },
+    {
+      "id": "gap",
+      "seconds": 6,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "But the share and its dividends come as one. You cannot keep one and sell the other."
+        }
+      ]
+    },
+    {
+      "id": "idea",
+      "seconds": 9,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "Stripr splits a tokenized stock in two. A Principal Token, the share. And a Yield Token, its dividends. Keep one. Trade the other."
+        }
+      ]
+    },
+    {
+      "id": "ask",
+      "seconds": 14,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "Here is the real session. Claude, connected to PayBox, finds the Stripr plugin. It reads the wallet, then previews a split. What you get, the yield, and the fees, before anything moves."
+        }
+      ]
+    },
+    {
+      "id": "decline",
+      "seconds": 8,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "Ask it to split a hundred, and it stops. The wallet holds too little, and the size cap would refuse it anyway. Nothing is built."
+        }
+      ]
+    },
+    {
+      "id": "retry",
+      "seconds": 12,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "The first approval window timed out before I signed. Claude would not create a duplicate. So I asked for a fresh one."
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "seconds": 12,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "This time it goes through. An unsigned transaction. You approve. PayBox signs. The plugin never touches a key."
+        }
+      ]
+    },
+    {
+      "id": "redeem",
+      "seconds": 9,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "Then a redeem, back to the stock. Same approval. Same flow."
+        }
+      ]
+    },
+    {
+      "id": "confirm",
+      "seconds": 8,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "Both settle on Solana mainnet. Claude reads back the new position, with an Explorer link."
+        }
+      ]
+    },
+    {
+      "id": "gate",
+      "seconds": 12,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "Before every trade, four plain rules run. Stale price. Size cap. Depeg. Unknown market. If one trips, the agent refuses and names the rule. No model in the path."
+        }
+      ]
+    },
+    {
+      "id": "doge",
+      "seconds": 6.5,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "Ask for DOGE, and it declines. Stripr does not list it."
+        }
+      ]
+    },
+    {
+      "id": "unique",
+      "seconds": 11,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "What makes it different? It is deterministic. Same inputs, same verdict. It is non-custodial. PayBox signs, never the plugin. And it runs on mainnet today."
+        }
+      ]
+    },
+    {
+      "id": "proof",
+      "seconds": 9,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "And it is live. A real split and a real redeem, on Solana mainnet. Fifteen markets. Fees exactly as quoted."
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "seconds": 5,
+      "lines": [
+        {
+          "voice": "narrator",
+          "text": "Stripr on PayBox. Agents that know when to say no."
+        }
+      ]
+    }
+  ]
+}

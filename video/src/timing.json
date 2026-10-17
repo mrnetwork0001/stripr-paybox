@@ -1,0 +1,2420 @@
+{
+ "fps": 30,
+ "totalFrames": 5077,
+ "bpm": 110,
+ "beats": [
+  9,
+  26,
+  42,
+  58,
+  75,
+  91,
+  107,
+  124,
+  140,
+  157,
+  173,
+  189,
+  206,
+  222,
+  238,
+  255,
+  271,
+  287,
+  304,
+  320,
+  337,
+  353,
+  369,
+  386,
+  402,
+  418,
+  435,
+  451,
+  467,
+  484,
+  500,
+  517,
+  533,
+  549,
+  566,
+  582,
+  598,
+  615,
+  631,
+  647,
+  664,
+  680,
+  697,
+  713,
+  729,
+  746,
+  762,
+  778,
+  795,
+  811,
+  827,
+  844,
+  860,
+  877,
+  893,
+  909,
+  926,
+  942,
+  958,
+  975,
+  991,
+  1007,
+  1024,
+  1040,
+  1057,
+  1073,
+  1089,
+  1106,
+  1122,
+  1138,
+  1155,
+  1171,
+  1187,
+  1204,
+  1220,
+  1237,
+  1253,
+  1269,
+  1286,
+  1302,
+  1318,
+  1335,
+  1351,
+  1367,
+  1384,
+  1400,
+  1417,
+  1433,
+  1449,
+  1466,
+  1482,
+  1498,
+  1515,
+  1531,
+  1547,
+  1564,
+  1580,
+  1597,
+  1613,
+  1629,
+  1646,
+  1662,
+  1678,
+  1695,
+  1711,
+  1727,
+  1744,
+  1760,
+  1777,
+  1793,
+  1809,
+  1826,
+  1842,
+  1858,
+  1875,
+  1891,
+  1907,
+  1924,
+  1940,
+  1957,
+  1973,
+  1989,
+  2006,
+  2022,
+  2038,
+  2055,
+  2071,
+  2087,
+  2104,
+  2120,
+  2137,
+  2153,
+  2169,
+  2186,
+  2202,
+  2218,
+  2235,
+  2251,
+  2267,
+  2284,
+  2300,
+  2317,
+  2333,
+  2349,
+  2366,
+  2382,
+  2398,
+  2415,
+  2431,
+  2447,
+  2464,
+  2480,
+  2497,
+  2513,
+  2529,
+  2546,
+  2562,
+  2578,
+  2595,
+  2611,
+  2627,
+  2644,
+  2660,
+  2677,
+  2693,
+  2709,
+  2726,
+  2742,
+  2758,
+  2775,
+  2791,
+  2807,
+  2824,
+  2840,
+  2857,
+  2873,
+  2889,
+  2906,
+  2922,
+  2938,
+  2955,
+  2971,
+  2987,
+  3004,
+  3020,
+  3037,
+  3053,
+  3069,
+  3086,
+  3102,
+  3118,
+  3135,
+  3151,
+  3167,
+  3184,
+  3200,
+  3217,
+  3233,
+  3249,
+  3266,
+  3282,
+  3298,
+  3315,
+  3331,
+  3347,
+  3364,
+  3380,
+  3397,
+  3413,
+  3429,
+  3446,
+  3462,
+  3478,
+  3495,
+  3511,
+  3527,
+  3544,
+  3560,
+  3577,
+  3593,
+  3609,
+  3626,
+  3642,
+  3658,
+  3675,
+  3691,
+  3707,
+  3724,
+  3740,
+  3757,
+  3773,
+  3789,
+  3806,
+  3822,
+  3838,
+  3855,
+  3871,
+  3887,
+  3904,
+  3920,
+  3937,
+  3953,
+  3969,
+  3986,
+  4002,
+  4018,
+  4035,
+  4051,
+  4067,
+  4084,
+  4100,
+  4117,
+  4133,
+  4149,
+  4166,
+  4182,
+  4198,
+  4215,
+  4231,
+  4247,
+  4264,
+  4280,
+  4297,
+  4313,
+  4329,
+  4346,
+  4362,
+  4378,
+  4395,
+  4411,
+  4427,
+  4444,
+  4460,
+  4477,
+  4493,
+  4509,
+  4526,
+  4542,
+  4558,
+  4575,
+  4591,
+  4607,
+  4624,
+  4640,
+  4657,
+  4673,
+  4689,
+  4706,
+  4722,
+  4738,
+  4755,
+  4771,
+  4787,
+  4804,
+  4820,
+  4837,
+  4853,
+  4869,
+  4886,
+  4902,
+  4918,
+  4935,
+  4951,
+  4967,
+  4984,
+  5000,
+  5017,
+  5033,
+  5049,
+  5066
+ ],
+ "music": {
+  "file": "audio/music.mp3",
+  "source": "elevenlabs-music"
+ },
+ "scenes": [
+  {
+   "id": "hook",
+   "from": 0,
+   "durationInFrames": 184,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "AI agents can move money now. Swap, send, sign. One wrong call, and it is gone.",
+     "file": "audio/vo/hook_0.mp3",
+     "startFrame": 12,
+     "durationFrames": 157,
+     "words": [
+      {
+       "word": "AI",
+       "start": 12,
+       "end": 22
+      },
+      {
+       "word": "agents",
+       "start": 24,
+       "end": 33
+      },
+      {
+       "word": "can",
+       "start": 35,
+       "end": 39
+      },
+      {
+       "word": "move",
+       "start": 41,
+       "end": 47
+      },
+      {
+       "word": "money",
+       "start": 49,
+       "end": 54
+      },
+      {
+       "word": "now.",
+       "start": 55,
+       "end": 64
+      },
+      {
+       "word": "Swap,",
+       "start": 66,
+       "end": 80
+      },
+      {
+       "word": "send,",
+       "start": 83,
+       "end": 96
+      },
+      {
+       "word": "sign.",
+       "start": 99,
+       "end": 114
+      },
+      {
+       "word": "One",
+       "start": 120,
+       "end": 126
+      },
+      {
+       "word": "wrong",
+       "start": 127,
+       "end": 132
+      },
+      {
+       "word": "call,",
+       "start": 134,
+       "end": 142
+      },
+      {
+       "word": "and",
+       "start": 143,
+       "end": 145
+      },
+      {
+       "word": "it",
+       "start": 147,
+       "end": 150
+      },
+      {
+       "word": "is",
+       "start": 151,
+       "end": 153
+      },
+      {
+       "word": "gone.",
+       "start": 155,
+       "end": 168
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "paybox",
+   "from": 184,
+   "durationInFrames": 210,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "PayBox fixes half of that. Your agent gets a wallet, never the keys. And you approve every move.",
+     "file": "audio/vo/paybox_0.mp3",
+     "startFrame": 196,
+     "durationFrames": 176,
+     "words": [
+      {
+       "word": "PayBox",
+       "start": 196,
+       "end": 211
+      },
+      {
+       "word": "fixes",
+       "start": 214,
+       "end": 224
+      },
+      {
+       "word": "half",
+       "start": 226,
+       "end": 232
+      },
+      {
+       "word": "of",
+       "start": 233,
+       "end": 234
+      },
+      {
+       "word": "that.",
+       "start": 235,
+       "end": 245
+      },
+      {
+       "word": "Your",
+       "start": 264,
+       "end": 269
+      },
+      {
+       "word": "agent",
+       "start": 270,
+       "end": 277
+      },
+      {
+       "word": "gets",
+       "start": 278,
+       "end": 283
+      },
+      {
+       "word": "a",
+       "start": 284,
+       "end": 284
+      },
+      {
+       "word": "wallet,",
+       "start": 286,
+       "end": 296
+      },
+      {
+       "word": "never",
+       "start": 297,
+       "end": 303
+      },
+      {
+       "word": "the",
+       "start": 304,
+       "end": 306
+      },
+      {
+       "word": "keys.",
+       "start": 307,
+       "end": 319
+      },
+      {
+       "word": "And",
+       "start": 326,
+       "end": 330
+      },
+      {
+       "word": "you",
+       "start": 331,
+       "end": 334
+      },
+      {
+       "word": "approve",
+       "start": 335,
+       "end": 345
+      },
+      {
+       "word": "every",
+       "start": 346,
+       "end": 351
+      },
+      {
+       "word": "move.",
+       "start": 353,
+       "end": 372
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "open",
+   "from": 394,
+   "durationInFrames": 409,
+   "lines": [
+    {
+     "voice": "agent",
+     "text": "Refused. Rule S G zero two, size cap. Thirty four thousand dollars is over the five thousand dollar cap. No transaction was built.",
+     "file": "audio/vo/open_0.mp3",
+     "startFrame": 406,
+     "durationFrames": 281,
+     "words": [
+      {
+       "word": "Refused.",
+       "start": 406,
+       "end": 430
+      },
+      {
+       "word": "Rule",
+       "start": 440,
+       "end": 451
+      },
+      {
+       "word": "S",
+       "start": 453,
+       "end": 458
+      },
+      {
+       "word": "G",
+       "start": 460,
+       "end": 463
+      },
+      {
+       "word": "zero",
+       "start": 468,
+       "end": 477
+      },
+      {
+       "word": "two,",
+       "start": 479,
+       "end": 492
+      },
+      {
+       "word": "size",
+       "start": 497,
+       "end": 507
+      },
+      {
+       "word": "cap.",
+       "start": 509,
+       "end": 522
+      },
+      {
+       "word": "Thirty",
+       "start": 529,
+       "end": 538
+      },
+      {
+       "word": "four",
+       "start": 539,
+       "end": 544
+      },
+      {
+       "word": "thousand",
+       "start": 546,
+       "end": 555
+      },
+      {
+       "word": "dollars",
+       "start": 557,
+       "end": 568
+      },
+      {
+       "word": "is",
+       "start": 570,
+       "end": 573
+      },
+      {
+       "word": "over",
+       "start": 575,
+       "end": 580
+      },
+      {
+       "word": "the",
+       "start": 581,
+       "end": 583
+      },
+      {
+       "word": "five",
+       "start": 585,
+       "end": 593
+      },
+      {
+       "word": "thousand",
+       "start": 594,
+       "end": 603
+      },
+      {
+       "word": "dollar",
+       "start": 605,
+       "end": 613
+      },
+      {
+       "word": "cap.",
+       "start": 614,
+       "end": 627
+      },
+      {
+       "word": "No",
+       "start": 637,
+       "end": 642
+      },
+      {
+       "word": "transaction",
+       "start": 644,
+       "end": 661
+      },
+      {
+       "word": "was",
+       "start": 663,
+       "end": 667
+      },
+      {
+       "word": "built.",
+       "start": 668,
+       "end": 686
+      }
+     ]
+    },
+    {
+     "voice": "narrator",
+     "text": "The other half? An agent that knows when to say no.",
+     "file": "audio/vo/open_1.mp3",
+     "startFrame": 702,
+     "durationFrames": 85,
+     "words": [
+      {
+       "word": "The",
+       "start": 702,
+       "end": 707
+      },
+      {
+       "word": "other",
+       "start": 708,
+       "end": 713
+      },
+      {
+       "word": "half?",
+       "start": 715,
+       "end": 725
+      },
+      {
+       "word": "An",
+       "start": 731,
+       "end": 735
+      },
+      {
+       "word": "agent",
+       "start": 736,
+       "end": 744
+      },
+      {
+       "word": "that",
+       "start": 745,
+       "end": 748
+      },
+      {
+       "word": "knows",
+       "start": 750,
+       "end": 757
+      },
+      {
+       "word": "when",
+       "start": 758,
+       "end": 762
+      },
+      {
+       "word": "to",
+       "start": 763,
+       "end": 764
+      },
+      {
+       "word": "say",
+       "start": 765,
+       "end": 770
+      },
+      {
+       "word": "no.",
+       "start": 772,
+       "end": 787
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "turn",
+   "from": 803,
+   "durationInFrames": 90,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "Meet Stripr.",
+     "file": "audio/vo/turn_0.mp3",
+     "startFrame": 815,
+     "durationFrames": 31,
+     "words": [
+      {
+       "word": "Meet",
+       "start": 815,
+       "end": 824
+      },
+      {
+       "word": "Stripr.",
+       "start": 825,
+       "end": 846
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "evidence",
+   "from": 893,
+   "durationInFrames": 461,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "Stripr is live on Solana mainnet, with fifteen tokenized stocks. Apple, Nvidia, Tesla, and more. Their dividends arrive by growing the token itself. Coca-Cola's has grown by two point two six percent.",
+     "file": "audio/vo/evidence_0.mp3",
+     "startFrame": 905,
+     "durationFrames": 434,
+     "words": [
+      {
+       "word": "Stripr",
+       "start": 905,
+       "end": 920
+      },
+      {
+       "word": "is",
+       "start": 922,
+       "end": 924
+      },
+      {
+       "word": "live",
+       "start": 926,
+       "end": 936
+      },
+      {
+       "word": "on",
+       "start": 937,
+       "end": 942
+      },
+      {
+       "word": "Solana",
+       "start": 945,
+       "end": 956
+      },
+      {
+       "word": "mainnet,",
+       "start": 957,
+       "end": 973
+      },
+      {
+       "word": "with",
+       "start": 977,
+       "end": 983
+      },
+      {
+       "word": "fifteen",
+       "start": 985,
+       "end": 999
+      },
+      {
+       "word": "tokenized",
+       "start": 1001,
+       "end": 1018
+      },
+      {
+       "word": "stocks.",
+       "start": 1018,
+       "end": 1037
+      },
+      {
+       "word": "Apple,",
+       "start": 1044,
+       "end": 1062
+      },
+      {
+       "word": "Nvidia,",
+       "start": 1065,
+       "end": 1088
+      },
+      {
+       "word": "Tesla,",
+       "start": 1090,
+       "end": 1109
+      },
+      {
+       "word": "and",
+       "start": 1110,
+       "end": 1116
+      },
+      {
+       "word": "more.",
+       "start": 1118,
+       "end": 1130
+      },
+      {
+       "word": "Their",
+       "start": 1146,
+       "end": 1152
+      },
+      {
+       "word": "dividends",
+       "start": 1153,
+       "end": 1166
+      },
+      {
+       "word": "arrive",
+       "start": 1167,
+       "end": 1178
+      },
+      {
+       "word": "by",
+       "start": 1179,
+       "end": 1183
+      },
+      {
+       "word": "growing",
+       "start": 1185,
+       "end": 1194
+      },
+      {
+       "word": "the",
+       "start": 1195,
+       "end": 1197
+      },
+      {
+       "word": "token",
+       "start": 1199,
+       "end": 1207
+      },
+      {
+       "word": "itself.",
+       "start": 1209,
+       "end": 1229
+      },
+      {
+       "word": "Coca-Cola's",
+       "start": 1242,
+       "end": 1262
+      },
+      {
+       "word": "has",
+       "start": 1263,
+       "end": 1267
+      },
+      {
+       "word": "grown",
+       "start": 1268,
+       "end": 1276
+      },
+      {
+       "word": "by",
+       "start": 1278,
+       "end": 1281
+      },
+      {
+       "word": "two",
+       "start": 1283,
+       "end": 1288
+      },
+      {
+       "word": "point",
+       "start": 1290,
+       "end": 1297
+      },
+      {
+       "word": "two",
+       "start": 1298,
+       "end": 1302
+      },
+      {
+       "word": "six",
+       "start": 1304,
+       "end": 1310
+      },
+      {
+       "word": "percent.",
+       "start": 1313,
+       "end": 1338
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gap",
+   "from": 1354,
+   "durationInFrames": 180,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "But the share and its dividends come as one. You cannot keep one and sell the other.",
+     "file": "audio/vo/gap_0.mp3",
+     "startFrame": 1366,
+     "durationFrames": 141,
+     "words": [
+      {
+       "word": "But",
+       "start": 1366,
+       "end": 1372
+      },
+      {
+       "word": "the",
+       "start": 1373,
+       "end": 1375
+      },
+      {
+       "word": "share",
+       "start": 1376,
+       "end": 1384
+      },
+      {
+       "word": "and",
+       "start": 1385,
+       "end": 1387
+      },
+      {
+       "word": "its",
+       "start": 1388,
+       "end": 1392
+      },
+      {
+       "word": "dividends",
+       "start": 1394,
+       "end": 1408
+      },
+      {
+       "word": "come",
+       "start": 1410,
+       "end": 1416
+      },
+      {
+       "word": "as",
+       "start": 1416,
+       "end": 1419
+      },
+      {
+       "word": "one.",
+       "start": 1421,
+       "end": 1431
+      },
+      {
+       "word": "You",
+       "start": 1447,
+       "end": 1451
+      },
+      {
+       "word": "cannot",
+       "start": 1452,
+       "end": 1461
+      },
+      {
+       "word": "keep",
+       "start": 1462,
+       "end": 1467
+      },
+      {
+       "word": "one",
+       "start": 1470,
+       "end": 1475
+      },
+      {
+       "word": "and",
+       "start": 1476,
+       "end": 1478
+      },
+      {
+       "word": "sell",
+       "start": 1480,
+       "end": 1485
+      },
+      {
+       "word": "the",
+       "start": 1487,
+       "end": 1489
+      },
+      {
+       "word": "other.",
+       "start": 1490,
+       "end": 1507
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "idea",
+   "from": 1534,
+   "durationInFrames": 280,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "Stripr splits a tokenized stock in two. A Principal Token, the share. And a Yield Token, its dividends. Keep one. Trade the other.",
+     "file": "audio/vo/idea_0.mp3",
+     "startFrame": 1546,
+     "durationFrames": 253,
+     "words": [
+      {
+       "word": "Stripr",
+       "start": 1546,
+       "end": 1560
+      },
+      {
+       "word": "splits",
+       "start": 1562,
+       "end": 1570
+      },
+      {
+       "word": "a",
+       "start": 1571,
+       "end": 1572
+      },
+      {
+       "word": "tokenized",
+       "start": 1574,
+       "end": 1592
+      },
+      {
+       "word": "stock",
+       "start": 1593,
+       "end": 1603
+      },
+      {
+       "word": "in",
+       "start": 1605,
+       "end": 1607
+      },
+      {
+       "word": "two.",
+       "start": 1609,
+       "end": 1622
+      },
+      {
+       "word": "A",
+       "start": 1628,
+       "end": 1630
+      },
+      {
+       "word": "Principal",
+       "start": 1632,
+       "end": 1643
+      },
+      {
+       "word": "Token,",
+       "start": 1645,
+       "end": 1655
+      },
+      {
+       "word": "the",
+       "start": 1656,
+       "end": 1658
+      },
+      {
+       "word": "share.",
+       "start": 1659,
+       "end": 1673
+      },
+      {
+       "word": "And",
+       "start": 1684,
+       "end": 1695
+      },
+      {
+       "word": "a",
+       "start": 1697,
+       "end": 1698
+      },
+      {
+       "word": "Yield",
+       "start": 1700,
+       "end": 1708
+      },
+      {
+       "word": "Token,",
+       "start": 1709,
+       "end": 1720
+      },
+      {
+       "word": "its",
+       "start": 1721,
+       "end": 1724
+      },
+      {
+       "word": "dividends.",
+       "start": 1726,
+       "end": 1743
+      },
+      {
+       "word": "Keep",
+       "start": 1749,
+       "end": 1755
+      },
+      {
+       "word": "one.",
+       "start": 1758,
+       "end": 1766
+      },
+      {
+       "word": "Trade",
+       "start": 1770,
+       "end": 1778
+      },
+      {
+       "word": "the",
+       "start": 1779,
+       "end": 1781
+      },
+      {
+       "word": "other.",
+       "start": 1783,
+       "end": 1798
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ask",
+   "from": 1814,
+   "durationInFrames": 429,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "Here is the real session. Claude, connected to PayBox, finds the Stripr plugin. It reads the wallet, then previews a split. What you get, the yield, and the fees, before anything moves.",
+     "file": "audio/vo/ask_0.mp3",
+     "startFrame": 1826,
+     "durationFrames": 402,
+     "words": [
+      {
+       "word": "Here",
+       "start": 1826,
+       "end": 1833
+      },
+      {
+       "word": "is",
+       "start": 1834,
+       "end": 1836
+      },
+      {
+       "word": "the",
+       "start": 1837,
+       "end": 1840
+      },
+      {
+       "word": "real",
+       "start": 1842,
+       "end": 1849
+      },
+      {
+       "word": "session.",
+       "start": 1851,
+       "end": 1870
+      },
+      {
+       "word": "Claude,",
+       "start": 1885,
+       "end": 1898
+      },
+      {
+       "word": "connected",
+       "start": 1899,
+       "end": 1911
+      },
+      {
+       "word": "to",
+       "start": 1912,
+       "end": 1913
+      },
+      {
+       "word": "PayBox,",
+       "start": 1915,
+       "end": 1931
+      },
+      {
+       "word": "finds",
+       "start": 1932,
+       "end": 1942
+      },
+      {
+       "word": "the",
+       "start": 1944,
+       "end": 1946
+      },
+      {
+       "word": "Stripr",
+       "start": 1948,
+       "end": 1960
+      },
+      {
+       "word": "plugin.",
+       "start": 1962,
+       "end": 1979
+      },
+      {
+       "word": "It",
+       "start": 2000,
+       "end": 2004
+      },
+      {
+       "word": "reads",
+       "start": 2006,
+       "end": 2013
+      },
+      {
+       "word": "the",
+       "start": 2014,
+       "end": 2016
+      },
+      {
+       "word": "wallet,",
+       "start": 2018,
+       "end": 2032
+      },
+      {
+       "word": "then",
+       "start": 2036,
+       "end": 2042
+      },
+      {
+       "word": "previews",
+       "start": 2044,
+       "end": 2058
+      },
+      {
+       "word": "a",
+       "start": 2060,
+       "end": 2061
+      },
+      {
+       "word": "split.",
+       "start": 2063,
+       "end": 2080
+      },
+      {
+       "word": "What",
+       "start": 2100,
+       "end": 2106
+      },
+      {
+       "word": "you",
+       "start": 2107,
+       "end": 2110
+      },
+      {
+       "word": "get,",
+       "start": 2112,
+       "end": 2123
+      },
+      {
+       "word": "the",
+       "start": 2127,
+       "end": 2130
+      },
+      {
+       "word": "yield,",
+       "start": 2133,
+       "end": 2145
+      },
+      {
+       "word": "and",
+       "start": 2146,
+       "end": 2150
+      },
+      {
+       "word": "the",
+       "start": 2152,
+       "end": 2154
+      },
+      {
+       "word": "fees,",
+       "start": 2155,
+       "end": 2172
+      },
+      {
+       "word": "before",
+       "start": 2179,
+       "end": 2191
+      },
+      {
+       "word": "anything",
+       "start": 2193,
+       "end": 2203
+      },
+      {
+       "word": "moves.",
+       "start": 2205,
+       "end": 2227
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "decline",
+   "from": 2243,
+   "durationInFrames": 248,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "Ask it to split a hundred, and it stops. The wallet holds too little, and the size cap would refuse it anyway. Nothing is built.",
+     "file": "audio/vo/decline_0.mp3",
+     "startFrame": 2255,
+     "durationFrames": 221,
+     "words": [
+      {
+       "word": "Ask",
+       "start": 2255,
+       "end": 2262
+      },
+      {
+       "word": "it",
+       "start": 2263,
+       "end": 2265
+      },
+      {
+       "word": "to",
+       "start": 2266,
+       "end": 2268
+      },
+      {
+       "word": "split",
+       "start": 2270,
+       "end": 2277
+      },
+      {
+       "word": "a",
+       "start": 2278,
+       "end": 2279
+      },
+      {
+       "word": "hundred,",
+       "start": 2281,
+       "end": 2292
+      },
+      {
+       "word": "and",
+       "start": 2293,
+       "end": 2297
+      },
+      {
+       "word": "it",
+       "start": 2299,
+       "end": 2301
+      },
+      {
+       "word": "stops.",
+       "start": 2302,
+       "end": 2319
+      },
+      {
+       "word": "The",
+       "start": 2330,
+       "end": 2334
+      },
+      {
+       "word": "wallet",
+       "start": 2335,
+       "end": 2344
+      },
+      {
+       "word": "holds",
+       "start": 2345,
+       "end": 2353
+      },
+      {
+       "word": "too",
+       "start": 2355,
+       "end": 2359
+      },
+      {
+       "word": "little,",
+       "start": 2361,
+       "end": 2372
+      },
+      {
+       "word": "and",
+       "start": 2380,
+       "end": 2387
+      },
+      {
+       "word": "the",
+       "start": 2388,
+       "end": 2390
+      },
+      {
+       "word": "size",
+       "start": 2391,
+       "end": 2399
+      },
+      {
+       "word": "cap",
+       "start": 2400,
+       "end": 2405
+      },
+      {
+       "word": "would",
+       "start": 2406,
+       "end": 2410
+      },
+      {
+       "word": "refuse",
+       "start": 2411,
+       "end": 2421
+      },
+      {
+       "word": "it",
+       "start": 2422,
+       "end": 2424
+      },
+      {
+       "word": "anyway.",
+       "start": 2425,
+       "end": 2438
+      },
+      {
+       "word": "Nothing",
+       "start": 2444,
+       "end": 2453
+      },
+      {
+       "word": "is",
+       "start": 2454,
+       "end": 2456
+      },
+      {
+       "word": "built.",
+       "start": 2458,
+       "end": 2475
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "retry",
+   "from": 2491,
+   "durationInFrames": 360,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "The first approval window timed out before I signed. Claude would not create a duplicate. So I asked for a fresh one.",
+     "file": "audio/vo/retry_0.mp3",
+     "startFrame": 2503,
+     "durationFrames": 203,
+     "words": [
+      {
+       "word": "The",
+       "start": 2503,
+       "end": 2508
+      },
+      {
+       "word": "first",
+       "start": 2509,
+       "end": 2515
+      },
+      {
+       "word": "approval",
+       "start": 2516,
+       "end": 2527
+      },
+      {
+       "word": "window",
+       "start": 2529,
+       "end": 2536
+      },
+      {
+       "word": "timed",
+       "start": 2538,
+       "end": 2546
+      },
+      {
+       "word": "out",
+       "start": 2547,
+       "end": 2551
+      },
+      {
+       "word": "before",
+       "start": 2552,
+       "end": 2559
+      },
+      {
+       "word": "I",
+       "start": 2560,
+       "end": 2561
+      },
+      {
+       "word": "signed.",
+       "start": 2563,
+       "end": 2577
+      },
+      {
+       "word": "Claude",
+       "start": 2588,
+       "end": 2597
+      },
+      {
+       "word": "would",
+       "start": 2598,
+       "end": 2602
+      },
+      {
+       "word": "not",
+       "start": 2603,
+       "end": 2607
+      },
+      {
+       "word": "create",
+       "start": 2608,
+       "end": 2616
+      },
+      {
+       "word": "a",
+       "start": 2617,
+       "end": 2617
+      },
+      {
+       "word": "duplicate.",
+       "start": 2619,
+       "end": 2637
+      },
+      {
+       "word": "So",
+       "start": 2658,
+       "end": 2663
+      },
+      {
+       "word": "I",
+       "start": 2665,
+       "end": 2666
+      },
+      {
+       "word": "asked",
+       "start": 2668,
+       "end": 2674
+      },
+      {
+       "word": "for",
+       "start": 2675,
+       "end": 2678
+      },
+      {
+       "word": "a",
+       "start": 2679,
+       "end": 2680
+      },
+      {
+       "word": "fresh",
+       "start": 2682,
+       "end": 2689
+      },
+      {
+       "word": "one.",
+       "start": 2690,
+       "end": 2705
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agent",
+   "from": 2851,
+   "durationInFrames": 360,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "This time it goes through. An unsigned transaction. You approve. PayBox signs. The plugin never touches a key.",
+     "file": "audio/vo/agent_0.mp3",
+     "startFrame": 2863,
+     "durationFrames": 216,
+     "words": [
+      {
+       "word": "This",
+       "start": 2863,
+       "end": 2870
+      },
+      {
+       "word": "time",
+       "start": 2871,
+       "end": 2876
+      },
+      {
+       "word": "it",
+       "start": 2877,
+       "end": 2879
+      },
+      {
+       "word": "goes",
+       "start": 2880,
+       "end": 2884
+      },
+      {
+       "word": "through.",
+       "start": 2886,
+       "end": 2898
+      },
+      {
+       "word": "An",
+       "start": 2904,
+       "end": 2908
+      },
+      {
+       "word": "unsigned",
+       "start": 2910,
+       "end": 2923
+      },
+      {
+       "word": "transaction.",
+       "start": 2923,
+       "end": 2949
+      },
+      {
+       "word": "You",
+       "start": 2955,
+       "end": 2959
+      },
+      {
+       "word": "approve.",
+       "start": 2961,
+       "end": 2978
+      },
+      {
+       "word": "PayBox",
+       "start": 2983,
+       "end": 2997
+      },
+      {
+       "word": "signs.",
+       "start": 2998,
+       "end": 3013
+      },
+      {
+       "word": "The",
+       "start": 3023,
+       "end": 3026
+      },
+      {
+       "word": "plugin",
+       "start": 3027,
+       "end": 3036
+      },
+      {
+       "word": "never",
+       "start": 3038,
+       "end": 3045
+      },
+      {
+       "word": "touches",
+       "start": 3047,
+       "end": 3057
+      },
+      {
+       "word": "a",
+       "start": 3058,
+       "end": 3059
+      },
+      {
+       "word": "key.",
+       "start": 3061,
+       "end": 3079
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "redeem",
+   "from": 3211,
+   "durationInFrames": 270,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "Then a redeem, back to the stock. Same approval. Same flow.",
+     "file": "audio/vo/redeem_0.mp3",
+     "startFrame": 3223,
+     "durationFrames": 88,
+     "words": [
+      {
+       "word": "Then",
+       "start": 3223,
+       "end": 3229
+      },
+      {
+       "word": "a",
+       "start": 3230,
+       "end": 3231
+      },
+      {
+       "word": "redeem,",
+       "start": 3232,
+       "end": 3243
+      },
+      {
+       "word": "back",
+       "start": 3244,
+       "end": 3249
+      },
+      {
+       "word": "to",
+       "start": 3250,
+       "end": 3251
+      },
+      {
+       "word": "the",
+       "start": 3253,
+       "end": 3255
+      },
+      {
+       "word": "stock.",
+       "start": 3256,
+       "end": 3267
+      },
+      {
+       "word": "Same",
+       "start": 3268,
+       "end": 3275
+      },
+      {
+       "word": "approval.",
+       "start": 3275,
+       "end": 3288
+      },
+      {
+       "word": "Same",
+       "start": 3290,
+       "end": 3297
+      },
+      {
+       "word": "flow.",
+       "start": 3298,
+       "end": 3311
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "confirm",
+   "from": 3481,
+   "durationInFrames": 240,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "Both settle on Solana mainnet. Claude reads back the new position, with an Explorer link.",
+     "file": "audio/vo/confirm_0.mp3",
+     "startFrame": 3493,
+     "durationFrames": 159,
+     "words": [
+      {
+       "word": "Both",
+       "start": 3493,
+       "end": 3501
+      },
+      {
+       "word": "settle",
+       "start": 3503,
+       "end": 3513
+      },
+      {
+       "word": "on",
+       "start": 3514,
+       "end": 3519
+      },
+      {
+       "word": "Solana",
+       "start": 3522,
+       "end": 3532
+      },
+      {
+       "word": "mainnet.",
+       "start": 3533,
+       "end": 3548
+      },
+      {
+       "word": "Claude",
+       "start": 3558,
+       "end": 3568
+      },
+      {
+       "word": "reads",
+       "start": 3569,
+       "end": 3576
+      },
+      {
+       "word": "back",
+       "start": 3577,
+       "end": 3583
+      },
+      {
+       "word": "the",
+       "start": 3584,
+       "end": 3586
+      },
+      {
+       "word": "new",
+       "start": 3588,
+       "end": 3591
+      },
+      {
+       "word": "position,",
+       "start": 3593,
+       "end": 3608
+      },
+      {
+       "word": "with",
+       "start": 3609,
+       "end": 3614
+      },
+      {
+       "word": "an",
+       "start": 3615,
+       "end": 3616
+      },
+      {
+       "word": "Explorer",
+       "start": 3617,
+       "end": 3632
+      },
+      {
+       "word": "link.",
+       "start": 3634,
+       "end": 3652
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gate",
+   "from": 3721,
+   "durationInFrames": 364,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "Before every trade, four plain rules run. Stale price. Size cap. Depeg. Unknown market. If one trips, the agent refuses and names the rule. No model in the path.",
+     "file": "audio/vo/gate_0.mp3",
+     "startFrame": 3733,
+     "durationFrames": 336,
+     "words": [
+      {
+       "word": "Before",
+       "start": 3733,
+       "end": 3744
+      },
+      {
+       "word": "every",
+       "start": 3745,
+       "end": 3750
+      },
+      {
+       "word": "trade,",
+       "start": 3752,
+       "end": 3760
+      },
+      {
+       "word": "four",
+       "start": 3761,
+       "end": 3766
+      },
+      {
+       "word": "plain",
+       "start": 3767,
+       "end": 3774
+      },
+      {
+       "word": "rules",
+       "start": 3775,
+       "end": 3783
+      },
+      {
+       "word": "run.",
+       "start": 3785,
+       "end": 3795
+      },
+      {
+       "word": "Stale",
+       "start": 3807,
+       "end": 3816
+      },
+      {
+       "word": "price.",
+       "start": 3817,
+       "end": 3828
+      },
+      {
+       "word": "Size",
+       "start": 3831,
+       "end": 3840
+      },
+      {
+       "word": "cap.",
+       "start": 3842,
+       "end": 3853
+      },
+      {
+       "word": "Depeg.",
+       "start": 3857,
+       "end": 3875
+      },
+      {
+       "word": "Unknown",
+       "start": 3887,
+       "end": 3898
+      },
+      {
+       "word": "market.",
+       "start": 3899,
+       "end": 3913
+      },
+      {
+       "word": "If",
+       "start": 3925,
+       "end": 3929
+      },
+      {
+       "word": "one",
+       "start": 3932,
+       "end": 3936
+      },
+      {
+       "word": "trips,",
+       "start": 3937,
+       "end": 3948
+      },
+      {
+       "word": "the",
+       "start": 3949,
+       "end": 3951
+      },
+      {
+       "word": "agent",
+       "start": 3953,
+       "end": 3961
+      },
+      {
+       "word": "refuses",
+       "start": 3962,
+       "end": 3978
+      },
+      {
+       "word": "and",
+       "start": 3980,
+       "end": 3983
+      },
+      {
+       "word": "names",
+       "start": 3984,
+       "end": 3992
+      },
+      {
+       "word": "the",
+       "start": 3993,
+       "end": 3995
+      },
+      {
+       "word": "rule.",
+       "start": 3997,
+       "end": 4009
+      },
+      {
+       "word": "No",
+       "start": 4028,
+       "end": 4032
+      },
+      {
+       "word": "model",
+       "start": 4034,
+       "end": 4042
+      },
+      {
+       "word": "in",
+       "start": 4043,
+       "end": 4045
+      },
+      {
+       "word": "the",
+       "start": 4046,
+       "end": 4048
+      },
+      {
+       "word": "path.",
+       "start": 4049,
+       "end": 4069
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "doge",
+   "from": 4085,
+   "durationInFrames": 195,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "Ask for DOGE, and it declines. Stripr does not list it.",
+     "file": "audio/vo/doge_0.mp3",
+     "startFrame": 4097,
+     "durationFrames": 95,
+     "words": [
+      {
+       "word": "Ask",
+       "start": 4097,
+       "end": 4103
+      },
+      {
+       "word": "for",
+       "start": 4105,
+       "end": 4108
+      },
+      {
+       "word": "DOGE,",
+       "start": 4110,
+       "end": 4119
+      },
+      {
+       "word": "and",
+       "start": 4120,
+       "end": 4123
+      },
+      {
+       "word": "it",
+       "start": 4125,
+       "end": 4126
+      },
+      {
+       "word": "declines.",
+       "start": 4127,
+       "end": 4145
+      },
+      {
+       "word": "Stripr",
+       "start": 4149,
+       "end": 4159
+      },
+      {
+       "word": "does",
+       "start": 4160,
+       "end": 4164
+      },
+      {
+       "word": "not",
+       "start": 4165,
+       "end": 4169
+      },
+      {
+       "word": "list",
+       "start": 4171,
+       "end": 4177
+      },
+      {
+       "word": "it.",
+       "start": 4179,
+       "end": 4192
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "unique",
+   "from": 4280,
+   "durationInFrames": 330,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "What makes it different? It is deterministic. Same inputs, same verdict. It is non-custodial. PayBox signs, never the plugin. And it runs on mainnet today.",
+     "file": "audio/vo/unique_0.mp3",
+     "startFrame": 4292,
+     "durationFrames": 300,
+     "words": [
+      {
+       "word": "What",
+       "start": 4292,
+       "end": 4298
+      },
+      {
+       "word": "makes",
+       "start": 4299,
+       "end": 4305
+      },
+      {
+       "word": "it",
+       "start": 4306,
+       "end": 4308
+      },
+      {
+       "word": "different?",
+       "start": 4309,
+       "end": 4321
+      },
+      {
+       "word": "It",
+       "start": 4322,
+       "end": 4327
+      },
+      {
+       "word": "is",
+       "start": 4329,
+       "end": 4332
+      },
+      {
+       "word": "deterministic.",
+       "start": 4334,
+       "end": 4362
+      },
+      {
+       "word": "Same",
+       "start": 4373,
+       "end": 4382
+      },
+      {
+       "word": "inputs,",
+       "start": 4383,
+       "end": 4396
+      },
+      {
+       "word": "same",
+       "start": 4400,
+       "end": 4408
+      },
+      {
+       "word": "verdict.",
+       "start": 4409,
+       "end": 4423
+      },
+      {
+       "word": "It",
+       "start": 4424,
+       "end": 4429
+      },
+      {
+       "word": "is",
+       "start": 4430,
+       "end": 4433
+      },
+      {
+       "word": "non-custodial.",
+       "start": 4435,
+       "end": 4464
+      },
+      {
+       "word": "PayBox",
+       "start": 4469,
+       "end": 4484
+      },
+      {
+       "word": "signs,",
+       "start": 4485,
+       "end": 4501
+      },
+      {
+       "word": "never",
+       "start": 4506,
+       "end": 4512
+      },
+      {
+       "word": "the",
+       "start": 4513,
+       "end": 4515
+      },
+      {
+       "word": "plugin.",
+       "start": 4516,
+       "end": 4530
+      },
+      {
+       "word": "And",
+       "start": 4539,
+       "end": 4543
+      },
+      {
+       "word": "it",
+       "start": 4545,
+       "end": 4546
+      },
+      {
+       "word": "runs",
+       "start": 4547,
+       "end": 4553
+      },
+      {
+       "word": "on",
+       "start": 4555,
+       "end": 4558
+      },
+      {
+       "word": "mainnet",
+       "start": 4559,
+       "end": 4571
+      },
+      {
+       "word": "today.",
+       "start": 4572,
+       "end": 4592
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "proof",
+   "from": 4610,
+   "durationInFrames": 270,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "And it is live. A real split and a real redeem, on Solana mainnet. Fifteen markets. Fees exactly as quoted.",
+     "file": "audio/vo/proof_0.mp3",
+     "startFrame": 4622,
+     "durationFrames": 203,
+     "words": [
+      {
+       "word": "And",
+       "start": 4622,
+       "end": 4628
+      },
+      {
+       "word": "it",
+       "start": 4630,
+       "end": 4632
+      },
+      {
+       "word": "is",
+       "start": 4633,
+       "end": 4636
+      },
+      {
+       "word": "live.",
+       "start": 4638,
+       "end": 4651
+      },
+      {
+       "word": "A",
+       "start": 4653,
+       "end": 4656
+      },
+      {
+       "word": "real",
+       "start": 4658,
+       "end": 4663
+      },
+      {
+       "word": "split",
+       "start": 4664,
+       "end": 4673
+      },
+      {
+       "word": "and",
+       "start": 4675,
+       "end": 4678
+      },
+      {
+       "word": "a",
+       "start": 4679,
+       "end": 4680
+      },
+      {
+       "word": "real",
+       "start": 4682,
+       "end": 4686
+      },
+      {
+       "word": "redeem,",
+       "start": 4689,
+       "end": 4702
+      },
+      {
+       "word": "on",
+       "start": 4704,
+       "end": 4709
+      },
+      {
+       "word": "Solana",
+       "start": 4711,
+       "end": 4722
+      },
+      {
+       "word": "mainnet.",
+       "start": 4724,
+       "end": 4737
+      },
+      {
+       "word": "Fifteen",
+       "start": 4745,
+       "end": 4757
+      },
+      {
+       "word": "markets.",
+       "start": 4759,
+       "end": 4774
+      },
+      {
+       "word": "Fees",
+       "start": 4776,
+       "end": 4784
+      },
+      {
+       "word": "exactly",
+       "start": 4785,
+       "end": 4798
+      },
+      {
+       "word": "as",
+       "start": 4799,
+       "end": 4801
+      },
+      {
+       "word": "quoted.",
+       "start": 4803,
+       "end": 4824
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "close",
+   "from": 4880,
+   "durationInFrames": 197,
+   "lines": [
+    {
+     "voice": "narrator",
+     "text": "Stripr on PayBox. Agents that know when to say no.",
+     "file": "audio/vo/close_0.mp3",
+     "startFrame": 4892,
+     "durationFrames": 111,
+     "words": [
+      {
+       "word": "Stripr",
+       "start": 4892,
+       "end": 4908
+      },
+      {
+       "word": "on",
+       "start": 4910,
+       "end": 4913
+      },
+      {
+       "word": "PayBox.",
+       "start": 4915,
+       "end": 4936
+      },
+      {
+       "word": "Agents",
+       "start": 4943,
+       "end": 4956
+      },
+      {
+       "word": "that",
+       "start": 4957,
+       "end": 4961
+      },
+      {
+       "word": "know",
+       "start": 4962,
+       "end": 4967
+      },
+      {
+       "word": "when",
+       "start": 4968,
+       "end": 4971
+      },
+      {
+       "word": "to",
+       "start": 4972,
+       "end": 4974
+      },
+      {
+       "word": "say",
+       "start": 4976,
+       "end": 4982
+      },
+      {
+       "word": "no.",
+       "start": 4984,
+       "end": 5002
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
