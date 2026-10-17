@@ -1,0 +1,7 @@
+{
+  "tool": "preview_split",
+  "arguments": {
+    "ticker": "AAPLx",
+    "amount": "1"
+  }
+}
