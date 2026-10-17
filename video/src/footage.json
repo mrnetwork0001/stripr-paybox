@@ -1,0 +1,44 @@
+{
+ "ask": {
+  "file": "footage/ask.mp4",
+  "width": 1600,
+  "height": 1000,
+  "durationFrames": 429
+ },
+ "decline": {
+  "file": "footage/decline.mp4",
+  "width": 1600,
+  "height": 1000,
+  "durationFrames": 248
+ },
+ "retry": {
+  "file": "footage/retry.mp4",
+  "width": 1600,
+  "height": 1000,
+  "durationFrames": 360
+ },
+ "agent": {
+  "file": "footage/agent.mp4",
+  "width": 1600,
+  "height": 1000,
+  "durationFrames": 360
+ },
+ "redeem": {
+  "file": "footage/redeem.mp4",
+  "width": 1600,
+  "height": 1000,
+  "durationFrames": 270
+ },
+ "confirm": {
+  "file": "footage/confirm.mp4",
+  "width": 1600,
+  "height": 1000,
+  "durationFrames": 240
+ },
+ "doge": {
+  "file": "footage/doge.mp4",
+  "width": 1600,
+  "height": 1000,
+  "durationFrames": 195
+ }
+}
